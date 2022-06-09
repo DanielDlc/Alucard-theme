@@ -1,0 +1,32 @@
+{
+    "name": "Alucard",
+    "displayName": "Alucard",
+    "description": "Dedicated theme for my son Alucard",
+    "version": "0.0.1",
+    "icon": "assets/icon.jpg",
+    "keyrods": ["theme","Alucard","alucard","DanielDlc"],
+    "publisher": "DanielDlc",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Alucard SotN",
+                "uiTheme": "vs-dark",
+                "path": "./themes/alucard-color-theme.json"
+            }
+        ]
+    },
+    "scripts": {
+        "package": "vsce package --no-yarn",
+        "publish": "vsce publish --no-yarn"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "vsce":"2.9.1"
+    }
+}
