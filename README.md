@@ -1,14 +1,14 @@
-# README
+# Alucard for [Visual Studio Code](http://code.visualstudio.com)
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+> A dark theme for [Visual Studio Code](http://code.visualstudio.com).
 
-- Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-- Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-- Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+## Install
+- [Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=DanielDlc.alucardsotn)
+- Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
+``` bash
+ext install DanielDlc.alucardsotn
+```
 
-### For more information
+## Licence 
 
-- [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-- [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+[MIT License](./LICENSE)
